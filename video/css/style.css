@@ -1,0 +1,90 @@
+/* https://cdn.plyr.io/3.3.12/plyr.css
+https://gordon325.github.io/p1-movie-trailer/
+https://learn.shayhowe.com/html-css/positioning-content/
+*/
+body {
+  background-image: url(https://www.nydailynews.com/resizer/hDH-HwHFk3M2Kb_VklN7FqON5Aw=/800x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/6OQTQR74DVH3LIUOREDA26QJUM.jpg)
+    
+}
+.container {
+	margin: 20px auto;
+	max-width: 600px;
+  
+}
+
+.plyr__video-embed iframe {
+	top: -50%;
+	height: 200%;
+}
+
+h1 {
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: center;
+  color:white;
+  font-family: 'Baloo+Bhai', serif;
+}
+
+.group {
+  border-radius: 6px;
+  color: black;
+  display: block;
+  text-align: center;
+  text-color: white;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  background: black;
+  border-radius: 6px;
+  clear: both;
+  *zoom: 1;
+}
+
+.group,
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+
+article{
+  float:left;
+    width: 63%;
+}
+
+aside{ 
+   float: right;
+  width: 30%;
+}
+
+p{
+  color:white;
+}
+
+img {
+  height: auto;
+  max-width: 50%;
+}
+
+ img {
+ float:left;
+margin: 0 auto 35px;
+}
+
+footer{
+  color:white;
+  text-align:center;
+  clear:both;
+   margin-bottom: 0;
+}
