@@ -10,40 +10,64 @@
 }
 
 video {
-  border: 10px solid red solid;
-width: 100%;
-height: 100%;}
+width: 80%;
+height: 80%;
+position: relative;
+left: 140px;}
 
 body {
   background-image: url(https://www.nydailynews.com/resizer/hDH-HwHFk3M2Kb_VklN7FqON5Aw=/800x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/6OQTQR74DVH3LIUOREDA26QJUM.jpg)
     
 }
 .container {
-	margin: 20px auto;
-	max-width: 600px;
+	margin: 30px auto;
+    max-width: 750px;
+
+ 
   
 }
 
 .plyr__video-embed iframe {
 	top: -50%;
-	height: 200%;
+  height: 200%;
+  background-position: 50% 50%;
+    background-size: contain;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+ 
 }
+
+
 
 h1 {
     letter-spacing: 7px;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 4.5em;
     text-align: center;
   color:white;
   font-family: 'Baloo+Bhai', serif;
+  
+  
+}
+
+h2 {
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  text-align: center;
+color:white;
+font-family: 'Baloo+Bhai', serif;
 }
 
 .group {
   border-radius: 6px;
   color: black;
   display: block;
-  text-align: center;
-  text-color: white;
+  text-align: left;
+  color: white;
+  padding-left: 20px;
 }
 
 .group:before,
@@ -72,28 +96,54 @@ footer {
 
 article{
   float:left;
-    width: 63%;
+    width: 50%;
 }
 
 aside{ 
    float: right;
-  width: 30%;
+  width: 40%;
+
+}
+
+section {
+  padding: 10px;
+}
+
+#bugs{
+width: 140px;
+height: 280px;
+
+
+}
+
+img {
+  float: left;
+  margin: 0 auto 35px;
+}
+#jordan {
+  width: 160px;
+  height: 280px;
 }
 
 p{
   color:white;
 }
 
-img {
-  height: auto;
-  max-width: 50%;
-}
 
- img {
- float:left;
-margin: 0 auto 35px;
+div.picture {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
 }
-
+  div.picture2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+  
+}
+.caption {
+  display: block;
+}
 footer{
   color:white;
   text-align:center;
